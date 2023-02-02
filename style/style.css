@@ -1,0 +1,51 @@
+body{
+    margin: 0px;
+}
+
+.cards{
+    width: 100%;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.cards .card1 ,
+.cards .card2 ,
+.cards .card3 ,
+.cards .card4 {
+    width: 20%;
+    height: 350px;
+   background-color:rgba(234, 234, 234,0.2);
+   float: left;
+   margin: 35px;
+   text-align: center;
+   color: rgb(33, 32, 32);
+   padding: 2px;
+}
+ 
+.cards .card1 .card1-img,
+.cards .card2 .card2-img,
+.cards .card3 .card3-img,
+.cards .card4 .card4-img{
+   width: 100%;
+}
+
+.cards .card1 .card1-img{margin-top: 70px;}
+.cards .card2 .card2-img{margin-top: 70px;}
+.cards .card3 .card3-img{margin-top: 50px;}
+.cards .card4 .card4-img{margin-top: 38px;}
+
+.cards .card2 .card2-img img{width: 150px;}
+.cards .card1 .card1-img img,
+.cards .card3 .card3-img img,
+.cards .card4 .card4-img img{
+     width: 100px;
+     
+}
+
+.cards .card1 p,
+.cards .card2 p,
+.cards .card3 p,
+.cards .card4 p{
+padding:0px 10px 0px 9px;
+   color: darkgrey;
+   margin-top: 30px;
+}
